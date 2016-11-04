@@ -41,6 +41,8 @@ li {
 	/*display: inline;*/
 	list-style-type: none; 
 	padding: 15px;
+	/*vertical-align: middle;*/
+	/*padding-top: 30px;*/
 }
 	
 .nav {
@@ -52,22 +54,102 @@ h2 {
 	padding: 25px 25px 25px 25px;
 }
 
-
+.mypic {
+	float: left;
+	padding-bottom: 25px;
+}
 
 #about-me {
 	margin: 50px 100px 650px;
+	padding-right: 30px;
+	padding-bottom: 25px;
 	background-color: white;
-	width: 650px;
+	max-width: 550px;
+	max-height: 400px;
+	line-height: 1.8;
+	float:left;	
 }
 
-
-
-
-
-
-
-
-
-
-
+#contact-info {
+	/*margin-top: 50px;
+	margin-right: auto;
+	margin-left: 20px;
+	margin-bottom: 650px;*/
+	float: left;
+	background-color: white;
+	max-width: 550px;
+	max-height: 400px;
+	text-align: center;
 }
+
+.contactme {
+	padding: 25px 25px 25px 25px;
+}
+
+.git {
+	max-width: 33%;
+	max-height: auto;
+	float: left;
+	margin: auto;
+}
+
+.linkedin {
+	max-width: 33%;
+	max-height: auto;
+	float: left;
+	margin: auto;
+}
+
+.stack {
+	max-width: 33%;
+	max-height: auto;
+	clear: both;
+	margin: auto;
+}
+
+footer {
+	background-color: #666666;
+	margin-bottom: 0;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	box-color: #4aaaa5;
+	border-top: 10px solid #4aaaa5;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
