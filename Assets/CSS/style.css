@@ -81,11 +81,19 @@ h2 {
 }
 
 #contact-info {
-	float: left;
+	/*float: left;
 	background-color: white;
 	max-width: 550px;
 	max-height: 400px;
-	text-align: center;
+	text-align: center;*/
+	margin: 50px 50px 650px 100px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	background-color: white;
+	max-width: 550px;
+	max-height: 400px;
+	line-height: 1.8;
+	float:left;	
 }
 
 
