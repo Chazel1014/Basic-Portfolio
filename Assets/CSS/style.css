@@ -6,13 +6,19 @@
 	text-decoration: none;
 }
 
-header, h1, h2, h3 {
-	font-family: "Georgia", Times, Times New Roman, serif;
+body {
+	background-image: url("cork-wallet.png");
 }
 
-h1, h2, h3 {
+header, h1, h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 100%
+}
+
+h1, h2 {
 	color: #4aaaa5;
 }
+
 header {
 	margin: 0;
 	padding: 0 25px 0 10px;
@@ -51,16 +57,20 @@ li {
 }
 
 h2 {
-	padding: 25px 25px 25px 25px;
+	margin-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/*padding: 25px 25px 25px 50px;*/
+	border-bottom: 1px solid #777777;
 }
 
 .mypic {
 	float: left;
-	padding-bottom: 25px;
+	padding: auto auto 25px 0;
 }
 
 #about-me {
-	margin: 50px 100px 650px;
+	margin: 50px 50px 650px 100px;
 	padding-right: 30px;
 	padding-bottom: 25px;
 	background-color: white;
@@ -71,10 +81,6 @@ h2 {
 }
 
 #contact-info {
-	/*margin-top: 50px;
-	margin-right: auto;
-	margin-left: 20px;
-	margin-bottom: 650px;*/
 	float: left;
 	background-color: white;
 	max-width: 550px;
@@ -82,9 +88,6 @@ h2 {
 	text-align: center;
 }
 
-.contactme {
-	padding: 25px 25px 25px 25px;
-}
 
 .git {
 	max-width: 33%;
@@ -107,7 +110,7 @@ h2 {
 	margin: auto;
 }
 
-footer {
+/*footer {
 	background-color: #666666;
 	margin-bottom: 0;
 	padding-top: 15px;
@@ -119,7 +122,7 @@ footer {
 	text-align: center;
 	box-color: #4aaaa5;
 	border-top: 10px solid #4aaaa5;
-}	
+}	*/
 
 
 
