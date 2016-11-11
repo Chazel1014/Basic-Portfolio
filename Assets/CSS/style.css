@@ -79,8 +79,8 @@ li {
 	/*padding: 25px;*/
 	background-color: white;
 	position: absolute;
-	top: 102px;
-	right: 65px;
+	top: 100px;
+	right: 100px;
 	/*border: 2px solid red;*/
 }
 
@@ -114,21 +114,6 @@ p {
 	/*margin: auto;*/
 }
 
-/*footer {
-	clear: both;
-	background-color: #666666;
-	color: white;
-	font-size: 15px;
-	text-align: center;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	border-top: 5px solid #4aaaa5;*/
-}
-
 #portfolio-one {
 	float: left;
 	background-color: #ffffff;
@@ -139,7 +124,7 @@ p {
 	width: 650px;
 	/*border: 2px solid red;*/
 	background-color: white;
-	padding: 5px;
+	padding: 5px 0 0 5px;
 }
 
 
@@ -164,7 +149,7 @@ p {
 	width: 80%;
 }
 
-.work-items {
+.hangman {
 	position: relative;
 	background-image: url("../Images/sanfran.jpg");
 	/*border: 2px red solid;*/
@@ -174,10 +159,9 @@ p {
 	width: 250px;
 	height: 250px;
 	margin: 25px;
-
 }
 
-.work-items {
+.rpg {
 	position: relative;
 	background-image: url("../Images/disco.jpg");
 	/*border: 2px red solid;*/
@@ -189,7 +173,7 @@ p {
 	margin: 25px;
 }
 
-.work-items {
+.trivia {
 	position: relative;
 	background-image: url("../Images/headphones.jpeg");
 	/*border: 2px red solid;*/
@@ -201,7 +185,7 @@ p {
 	margin: 25px;
 }
 
-.work-items {
+.rutgers {
 	position: relative;
 	background-image: url("../Images/sydney.jpg");
 	/*border: 2px red solid;*/
@@ -213,7 +197,7 @@ p {
 	margin: 25px;
 }
 
-.work-items {
+.rock {
 	position: relative;
 	background-image: url("../Images/bar.jpg");
 	/*border: 2px red solid;*/
@@ -227,14 +211,30 @@ p {
 
 .column-one{
 	float: left;
+	margin-left: 24px;
 	
 }
 
 .column-two{
 	float: left;
-
+	/*left: 25;*/
 }
 
+footer {
+	/*clear: both;*/
+	background-color: #666666;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	/*position: absolute;*/
+	left: 0;
+	bottom: 0;
+	margin-top: 960px;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: 5px solid #4aaaa5;
+}
 
 
 
