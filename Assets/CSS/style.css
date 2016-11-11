@@ -151,7 +151,7 @@ p {
 
 .hangman {
 	position: relative;
-	background-image: url("../Images/sanfran.jpg");
+	background-image: url("../Images/ipad.jpg");
 	/*border: 2px red solid;*/
 	background-position: center;
 	background-size: cover;
@@ -163,7 +163,7 @@ p {
 
 .rpg {
 	position: relative;
-	background-image: url("../Images/disco.jpg");
+	background-image: url("../Images/spinstable.jpg");
 	/*border: 2px red solid;*/
 	background-position: center;
 	background-size: cover;
@@ -175,7 +175,7 @@ p {
 
 .trivia {
 	position: relative;
-	background-image: url("../Images/headphones.jpeg");
+	background-image: url("../Images/earbuds.jpg");
 	/*border: 2px red solid;*/
 	background-position: center;
 	background-size: cover;
@@ -187,7 +187,7 @@ p {
 
 .rutgers {
 	position: relative;
-	background-image: url("../Images/sydney.jpg");
+	background-image: url("../Images/cell.jpg");
 	/*border: 2px red solid;*/
 	background-position: center;
 	background-size: cover;
@@ -199,7 +199,7 @@ p {
 
 .rock {
 	position: relative;
-	background-image: url("../Images/bar.jpg");
+	background-image: url("../Images/tv.jpg");
 	/*border: 2px red solid;*/
 	background-position: center;
 	background-size: cover;
