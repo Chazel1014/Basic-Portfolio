@@ -143,10 +143,10 @@ p {
 	color: #ffffff;
 	background-color: #4aaaa5;
 	text-align: center;
-	padding: 25px;
+	padding: 15px;
 	position: absolute;
-	bottom: 0;
-	width: 80%;
+	bottom: 5%;
+	width: 88%;
 }
 
 .hangman {
@@ -236,14 +236,44 @@ footer {
 	border-top: 5px solid #4aaaa5;
 }
 
+.name {
+	font-size: 20px;
+	margin: 25px;
+}
 
+.email {
+	font-size: 20px;
+	margin: 25px;
+}
 
+.message {
+	font-size: 20px;
+	margin: 25px;
+}
 
+input {
+	/*border: 2px red solid;*/
+	height: 28px;
+	font-size: 14px;
+	width: 85%;
+	margin-top: 10px;
+	
+}
 
+.button {
+	width: 100px;
+	margin: 15px 15px 15px 25px;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 15px;
+	line-height: 1px;
 
+}
 
-
-
+text-area {
+	font-size: 14px;
+}
 
 
 

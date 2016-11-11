@@ -29,16 +29,31 @@
 
 				<h1>Contact</h1> 
 					
-					<form id="contact-form">
-						<ul>
-							<li>Name</li><br>
-								<input type="text" name="firstLast">
-							<li>Email</li><br>
-								<input type="text" name="email">
-							<li>Message</li><br>
-								<input type="text" name="message">
-						</ul>
+					<form action="index.php">
+							
+							<p class="name">Name<br>
+								
+								<input type="name" size="100" placeholder="John Smith" name="firstLast">
+								<br></p>
+
+							<p class="email">Email<br>
+								
+								<input type="email" size="100" placeholder="example@gmail.com" name="email">
+								<br></p>
+
+							<p class="message">Message<br>
+								<!-- <input type="message" size="100" name="message"> -->
+								<textarea name="message" rows="10" cols="83">
+
+							</textarea>
+								<br></p>
+					
+					
+							<input type="Submit" class="button" value="Submit">
+							
 					</form>	
+
+
 			</section>
 
 			<section id="contact-info">
