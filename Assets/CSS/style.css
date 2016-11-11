@@ -11,31 +11,33 @@ body {
 }
 
 header {
-	font-family: "Georgia", Times, Times New Roman, serif;
+	
 	margin-bottom: 20px;
-	/*padding: 0 25px 0 10px;*/
 	background-color: #ffffff;
-	border-bottom: 3px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 }
 
 #logo {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 25px;
 	display: inline-block;
 	color: white;
 	text-align: center;
 	background-color: #4aaaa5;
 	padding: 25px;
-	/*padding-right: 1px;*/
-	/*padding-bottom: 25px;*/
-	/*padding-left: 1px;*/
 }
+
 .container {
 	width: 960px;
 	margin: 0 auto;
+	background-color: white;
 }
 
 h1, h2 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	color: #4aaaa5;
+	margin: 25px;
+	border-bottom: 1.5px solid #cccccc;
 }
 
 .main-content {
@@ -45,7 +47,8 @@ h1, h2 {
 	/*padding: 25px;*/
 }
 
-h1 {
+.bio {
+	line-height: 30px;
 	margin: 25px;
 }
 
@@ -64,58 +67,51 @@ li {
 	margin: 10px 10px 0 10px;
 }
 
-h2 {
-	margin-left: 25px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	/*padding: 25px 25px 25px 50px;*/
-	border-bottom: 1px solid #777777;
-}
-
 .mypic {
 	float: left;
-	padding: auto auto 25px 0;
-	margin: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
 #contact-info {
-	/*float: left;
+	margin: auto;
+	/*padding: 25px;*/
 	background-color: white;
-	max-width: 550px;
-	max-height: 400px;
-	text-align: center;*/
-	/*margin: 50px 50px 650px 100px;*/
-	padding-right: 30px;
-	padding-bottom: 25px;
-	background-color: white;
-	max-width: 550px;
-	max-height: 400px;
-	line-height: 1.8;
-	float:right;	
+	float:right;
 }
 
+p {
+	margin: 25px;
+
+}
+.connectwme {
+	/*padding: 25px;*/
+	align-items: center;
+}
 
 .git {
 	max-width: 33%;
 	max-height: auto;
 	float: left;
-	margin: auto;
+	/*margin: auto;*/
 }
 
 .linkedin {
 	max-width: 33%;
 	max-height: auto;
 	float: left;
-	margin: auto;
+	/*margin: auto;*/
 }
 
 .stack {
 	max-width: 33%;
 	max-height: auto;
-	clear: both;
-	margin: auto;
+	/*clear: both;*/
+	/*margin: auto;*/
 }
-footer {
+
+/*footer {
 	clear: both;
 	background-color: #666666;
 	color: white;
@@ -127,13 +123,35 @@ footer {
 	width: 100%;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	border-top: 5px solid #4aaaa5;
+	border-top: 5px solid #4aaaa5;*/
+}
+
+.auth-image {
+	/*max-width: 200px;
+	max-height: auto;*/
+	float: left;
+	margin: 0, auto;
+	display: inline-block;
+	position: relative;
 }
 
 
+.label {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	text-align: center;
+	/*display: inline-block;*/
+	padding: 25px;
+	position: absolute;
+	bottom: 0;
+	/*left: 0;*/
 
+}
 
+.work-items {
 
+}
 
 
 
